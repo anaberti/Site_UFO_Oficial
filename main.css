@@ -1,0 +1,160 @@
+/*GENERAL*/
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    color: #010204;
+}
+
+h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    color: #010204;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #010204;    
+}
+
+/*TOP*/
+header{
+    padding: 8px 0;
+    background-color: #010204;
+    color: #dae5e7;
+    font-size: 16px;
+}
+
+header .container {
+    max-width: 600 px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 13px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.uap {
+    height: 120px;
+}
+
+/*BODY*/
+.container{
+    max-width: 600 px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 10px;    
+}
+
+#about {
+    background-color: #d4d5d8;
+    color: #010204;
+    text-align:left;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+#cronology {
+    background-color: #f0de80;
+}
+
+#cronology img {
+    height: 550px;
+}
+
+#cronology p a {
+    text-decoration: none;
+    color: #010204;
+}
+
+#cronology p {
+    margin-left: 15px;
+}
+
+#cronology p:hover {
+    text-decoration: underline;
+}
+
+#documents {
+    color: #010204;
+}
+
+#documents .container {
+    background-color: #80a2f0;
+}
+
+.topic img {
+    height: 90px;
+}
+
+.topic {
+    color: #010204;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.topic a {
+    text-decoration: none;
+    text-align:justify;
+}
+
+.topic a:hover {
+    text-decoration: underline;
+}
+
+.topic p {
+    padding: 5%;    
+    text-align: justify;
+}
+
+.topic div {
+    justify-content: space-between;
+    background-color: rgb(204, 209, 207);
+}
+
+/*FOOTER*/
+footer {
+    padding: 16px 0;
+    background-color: #010204;
+}
+
+footer p {
+    color: #dae5e7;
+    margin: 16px;
+}
